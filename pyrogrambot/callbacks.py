@@ -1,7 +1,7 @@
 from pyrogram.types import CallbackQuery
 from pyrogram.types import InlineKeyboardMarkup
 from pyrogram import Client
-from pyrogrambot.buttons import MENU_BUTTON, MOVIE_BUTTON, COMMM_BUTTON, KGF_BUTTON, S_BACK_BUTTO, SMENU_BUTTO, PMENU_BUTTN, button, VDENU_BUTTO
+from pyrogrambot.buttons import MENU_BUTTON, MOVIE_BUTTON, COMMM_BUTTON, KGF_BUTTON, S_BACK_BUTTO, SMENU_BUTTO, PMENU_BUTTN, button, VDENU_BUTTO, TEDZO_BUTTO
 import asyncio
 import pytz, datetime
 from pyrogrambot.photos import PHOTOS
@@ -121,6 +121,22 @@ async def callback(bot, msg: CallbackQuery):
             sticker="CAACAgIAAxkBAAECR5liWidHhuUuJNcoJ_5QjliWb4I4kgAC1BEAA8CgSXknAeKPK_QMHgQ",
             reply_markup=InlineKeyboardMarkup(S_BACK_BUTTO)
         )
+    elif msg.data == "movies":
+        await msg.message.edit("○○○○○")
+        await asyncio.sleep(0.2)
+        await msg.message.edit("●○○○○")
+        await asyncio.sleep(0.2)
+        await msg.message.edit("●●○○○")
+        await asyncio.sleep(0.2)
+        await msg.message.edit("●●●○○")
+        await asyncio.sleep(0.2)
+        await msg.message.edit("●●●●○")
+        await asyncio.sleep(0.2)
+        await msg.message.edit("●●●●●")
+        await asyncio.sleep(0.2)
+        await msg.message.edit(
+            text="Tᴏ Dᴏᴡɴʟᴏᴀᴅ Kɢғ 𝟸 Sᴇɴᴅ Tʜɪs Tᴇxᴛ `kgf 2`",
+            reply_markup=InlineKeyboardMarkup(TEDZO_BUTTO)
     elif msg.data == "pback":
         m = datetime.datetime.now(pytz.timezone("Asia/Kolkata"))
         time = m.hour
