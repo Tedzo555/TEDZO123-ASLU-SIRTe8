@@ -19,8 +19,11 @@ async def start_message(bot, message):
                 await message.reply_text("<b>Aᴄᴄᴇꜱꜱ ᴅᴇɴɪᴇᴅ 🚸</b>")
                 return
         except UserNotParticipant:
-             await message.reply_text(
-                 text="Jᴏɪɴ Mʏ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ Tᴏ Usᴇ Tʜɪs Bᴏᴛ",
+             await message.reply_photo(
+        photo=random.choice(PHOTOS),
+        caption=f"""<b>{get} 👋, {message.from_user.mention}
+        Tʜɪs Is A Pʏʀᴏɢʀᴀᴍ Bᴏᴛ Cʀᴇᴀᴛᴇᴅ Bʏ [Tʜɪs Gᴜʏ](https://t.me/tedzo01)
+        Join my update channel </b>""",
                  reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton(text="Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ", url="https://t.me/tzobotz") ]])
              )
              return
