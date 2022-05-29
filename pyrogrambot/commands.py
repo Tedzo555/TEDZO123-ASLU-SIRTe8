@@ -11,7 +11,6 @@ FORCE_SUB = "tzobotz"
 
 @Client.on_message(filters.private & filters.command("start"))
 async def start_message(bot, message):
-    await message.reply_chat_action("Typing")
     await m.delete()             
     await message.reply_photo(
         photo=random.choice(PHOTOS),
