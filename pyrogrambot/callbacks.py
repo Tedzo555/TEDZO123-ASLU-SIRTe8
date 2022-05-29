@@ -137,6 +137,7 @@ async def callback(bot, msg: CallbackQuery):
         await msg.message.edit(
             text="Tᴏ Dᴏᴡɴʟᴏᴀᴅ Kɢғ 𝟸 Sᴇɴᴅ Tʜɪs Tᴇxᴛ `kgf 2`",
             reply_markup=InlineKeyboardMarkup(TEDZO_BUTTO)
+       )
     elif msg.data == "pback":
         m = datetime.datetime.now(pytz.timezone("Asia/Kolkata"))
         time = m.hour
