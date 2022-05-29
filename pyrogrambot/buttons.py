@@ -19,12 +19,11 @@ MENU_BUTTON = [[
               ]]
 
 TEDZO_MENU = [[
-            InlineKeyboardMarkup(button),
             InlineKeyboardButton("❣️ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/BETA_BOTSUPPORT"),
             InlineKeyboardButton("📢 𝐔𝐏𝐃𝐀𝐓𝐄𝐒", url="https://t.me/BETA_UPDATES")
             ],[            
             InlineKeyboardButton("ℹ️ 𝐇𝐄𝐋𝐏", callback_data="help"),
-            InlineKeyboardButton("ℹ️ 📍", callback_data="VDENU_BUTT"),
+            InlineKeyboardButton("ℹ️ 📍", callback_data="next"),
             ],[
             InlineKeyboardButton("👨‍💻 𝐃𝐄𝐕𝐒 👨‍💻 ", callback_data="devs"),
             InlineKeyboardButton("🤖 𝐀𝐁𝐎𝐔𝐓", callback_data="about")
