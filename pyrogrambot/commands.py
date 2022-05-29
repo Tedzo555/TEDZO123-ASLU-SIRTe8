@@ -10,8 +10,7 @@ FORCE_SUB = "tzobotz"
 
 
 @Client.on_message(filters.private & filters.command("start"))
-async def start_message(bot, message):
-    await m.delete()             
+async def start_message(bot, message):             
     await message.reply_photo(
         photo=random.choice(PHOTOS),
         caption=f"Hello {message.from_user.mention}👋🏻\nI'am A Multi use Bot with many usefull features.\neg:- Telegarph, Channel ID, User ID, Fun, Group Id etc...\nYou can see My commands by below button... \n\n◉ send channel last message with forwerd tag to get the channel id 💯",               
