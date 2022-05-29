@@ -121,7 +121,7 @@ async def callback(bot, msg: CallbackQuery):
             sticker="CAACAgIAAxkBAAECR5liWidHhuUuJNcoJ_5QjliWb4I4kgAC1BEAA8CgSXknAeKPK_QMHgQ",
             reply_markup=InlineKeyboardMarkup(S_BACK_BUTTO)
         )
-    elif msg.data == "movies":
+    elif msg.data == "tedzo":
         await msg.message.edit("○○○○○")
         await asyncio.sleep(0.2)
         await msg.message.edit("●○○○○")
