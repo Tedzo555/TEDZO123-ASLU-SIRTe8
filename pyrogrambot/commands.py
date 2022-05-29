@@ -11,7 +11,6 @@ FORCE_SUB = "tzobotz"
 
 @Client.on_message(filters.command("start")) 
 async def start_message(bot, message):
-    await bot.send_chat_action(message.from_user.id, "Typing")
     await asyncio.sleep(0.6)
     if FORCE_SUB:
         try:
