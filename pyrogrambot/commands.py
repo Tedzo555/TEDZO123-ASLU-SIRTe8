@@ -13,16 +13,7 @@ FORCE_SUB = "tzobotz"
 async def start_message(bot, message):             
     await message.reply_photo(
         photo=random.choice(PHOTOS),
-        caption=f"Hello {message.from_user.mention}👋🏻\nI'am A Multi use Bot with many usefull features.\neg:- Telegarph, Channel ID, User ID, Fun, Group Id etc...\nYou can see My commands by below button... \n\n◉ send channel last message with forwerd tag to get the channel id 💯",    
-         if FORCE_SUB:
-        try:
-            user = await bot.get_chat_member(FORCE_SUB, message.chat.id)
-            if user.status == "kicked out":
-                await message.reply_text("<b>Aᴄᴄᴇꜱꜱ ᴅᴇɴɪᴇᴅ 🚸</b>")
-                return
-        except UserNotParticipant:
-             await message.reply_text(
-                 text="Jᴏɪɴ Mʏ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ Tᴏ Usᴇ Tʜɪs Bᴏᴛ",          
+        caption=f"Hello {message.from_user.mention}👋🏻\nI'am A Multi use Bot with many usefull features.\neg:- Telegarph, Channel ID, User ID, Fun, Group Id etc...\nYou can see My commands by below button... \n\n◉ send channel last message with forwerd tag to get the channel id 💯",              
         reply_markup=InlineKeyboardMarkup( [[
             InlineKeyboardMarkup(button),
             InlineKeyboardButton("❣️ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/BETA_BOTSUPPORT"),
