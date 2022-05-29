@@ -13,9 +13,7 @@ FORCE_SUB = "tzobotz"
 async def start_message(bot, message):
     insert(int(message.chat.id))
     await message.reply_chat_action("Typing")
-    await asyncio.sleep(DELAY)
     m=await message.reply_sticker(STAT_STICK)
-    await asyncio.sleep(DELAY)
     await m.delete()             
     await message.reply_photo(
         photo=random.choice(PICS),
