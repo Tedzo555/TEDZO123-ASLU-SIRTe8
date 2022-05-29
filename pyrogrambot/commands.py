@@ -9,16 +9,11 @@ import pytz, datetime
 FORCE_SUB = "tzobotz"
 
 
-@Client.on_message(filters.command("start")) 
-async def start_message(bot, message):
-    await bot.send_chat_action(message.from_user.id, "Typing")
-    await asyncio.sleep(0.6)
-    if FORCE_SUB:
-        try:
-            user = await bot.get_chat_member(FORCE_SUB, message.chat.id)
-            if user.status == "kicked out":
-                await message.reply_text("<b>Aᴄᴄᴇꜱꜱ ᴅᴇɴɪᴇᴅ 🚸</b>")
-                return
+@Client.on_message(filters.private & filters.command(['start']))
+async def start(client, message):
+	await message.reply_text(text =f"Hello **{message.from_user.first_name }** \n\n _TEDZO SIR PYROGRAM BOT\nBy\naslu__",reply_to_message_id = message.message_id ,parse_mode="markdown", reply_markup=InlineKeyboardMarkup([ [                    InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/tedzobotz") ],               [InlineKeyboardButton("join 🧐", url="https://t.me/tedzomovies") ]   ]  ) )
+             return
+
         except UserNotParticipant:
              await message.reply_text(
                  text="Jᴏɪɴ Mʏ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ Tᴏ Usᴇ Tʜɪs Bᴏᴛ",
