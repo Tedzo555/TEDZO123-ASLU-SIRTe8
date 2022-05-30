@@ -19,8 +19,8 @@ MENU_BUTTON = [[
               ]]
 
 TEDZO_BUTTON = [[
-              InlineKeyboardButton("ᴏᴡɴᴇʀ", url="http://t.me/tedzosir01),
-              InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="http://t.me/tzobotz")
+              InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/tedzosir01"),
+              InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/tzobotz"),
               ],[
               InlineKeyboardButton("« Bᴀᴄᴋ", callback_data="vback"),
               InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="next"),
