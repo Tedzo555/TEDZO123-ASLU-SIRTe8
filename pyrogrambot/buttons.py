@@ -16,16 +16,7 @@ MENU_BUTTON = [[
               ],[
               InlineKeyboardButton("« Bᴀᴄᴋ", callback_data="vback"),
               InlineKeyboardButton("Cᴏᴍᴍᴀɴᴅs", callback_data="commands")
-              ],[
-            InlineKeyboardButton("❣️ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/BETA_BOTSUPPORT"),
-            InlineKeyboardButton("📢 𝐔𝐏𝐃𝐀𝐓𝐄𝐒", url="https://t.me/BETA_UPDATES")
-            ],[            
-            InlineKeyboardButton("ℹ️ 𝐇𝐄𝐋𝐏", callback_data="help"),
-            InlineKeyboardButton("ℹ️ 📍", callback_data="next"),
-            ],[
-            InlineKeyboardButton("👨‍💻 𝐃𝐄𝐕𝐒 👨‍💻 ", callback_data="devs"),
-            InlineKeyboardButton("🤖 𝐀𝐁𝐎𝐔𝐓", callback_data="about")
-            ]]
+              ]]
 
 MOVIE_BUTTON = [[
                InlineKeyboardButton("« Bᴀᴄᴋ", callback_data="next")
@@ -96,4 +87,3 @@ PMENU_BUTTN = [[
 S_BACK_BUTTO = [[
                InlineKeyboardButton("Mᴇɴᴜ", callback_data="sticker")
                ]]
-
