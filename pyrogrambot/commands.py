@@ -6,7 +6,7 @@ from pyrogram.errors import UserNotParticipant
 import random
 import asyncio
 import pytz, datetime
-FORCE_SUB = "AIOM_PYRO"
+FORCE_SUB = "tzobotz"
 
 
 @Client.on_message(filters.command("start")) 
