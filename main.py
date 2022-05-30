@@ -1,5 +1,6 @@
 from pyrogram import Client
 import os
+import googletrans
 
 Pyrogrambot = Client(
     "Pyrogram Bot",
