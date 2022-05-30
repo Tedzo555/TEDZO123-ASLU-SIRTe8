@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from telegraph import upload_file
 
 
-@Webot.on_message(filters.photo)
+@client.on_message(filters.photo)
 async def telegraphphoto(client, message):
     msg = await message.reply_text("Uploading To Telegraph...")
     download_location = await client.download_media(
