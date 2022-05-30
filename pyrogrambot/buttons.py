@@ -14,7 +14,7 @@ MENU_BUTTON = [[
               InlineKeyboardButton("Mᴏᴠɪᴇs", callback_data="movies"),
               InlineKeyboardButton("Cʟᴏsᴇ", callback_data="close")
               ],[
-              InlineKeyboardButton("« Bᴀᴄᴋ", callback_data="vback"),
+              InlineKeyboardButton(" ᴀʙᴏᴜᴛ", callback_data="about"),
               InlineKeyboardButton("Cᴏᴍᴍᴀɴᴅs", callback_data="commands")
               ]]
 
@@ -23,8 +23,8 @@ TEDZO_BUTTON = [[
               InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/tzobotz"),
               ],[
               InlineKeyboardButton("« Bᴀᴄᴋ", callback_data="vback"),
-              InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="next"),
-              InlineKeyboardButton("help", callback_data="id")
+              InlineKeyboardButton("menu", callback_data="next"),
+              InlineKeyboardButton("ɪᴅ", callback_data="id")
               ]]
 
 
@@ -62,7 +62,7 @@ SMENU_BUTTO = [[
               InlineKeyboardButton("Mᴏᴠɪᴇs", callback_data="smovies"),
               InlineKeyboardButton("Cʟᴏsᴇ", callback_data="close")
               ],[
-              InlineKeyboardButton("« Bᴀᴄᴋ", callback_data="sback"),
+              InlineKeyboardButton(" ᴀʙᴏᴜᴛ", callback_data="about"),
               InlineKeyboardButton("Cᴏᴍᴍᴀɴᴅs", callback_data="scommands")
               ]]
 
@@ -76,7 +76,7 @@ VDENU_BUTTO = [[
               InlineKeyboardButton("Mᴏᴠɪᴇs", callback_data="smovies"),
               InlineKeyboardButton("Cʟᴏsᴇ", callback_data="close")
               ],[
-              InlineKeyboardButton("« Bᴀᴄᴋ", callback_data="vback"),
+              InlineKeyboardButton(" ᴀʙᴏᴜᴛ", callback_data="about"),
               InlineKeyboardButton("Cᴏᴍᴍᴀɴᴅs", callback_data="scommands")
               ]]
 
@@ -90,7 +90,7 @@ PMENU_BUTTN = [[
               InlineKeyboardButton("Mᴏᴠɪᴇs", callback_data="movies"),
               InlineKeyboardButton("Cʟᴏsᴇ", callback_data="close")
               ],[
-              InlineKeyboardButton("« Bᴀᴄᴋ", callback_data="pback"),
+              InlineKeyboardButton(" ᴀʙᴏᴜᴛ", callback_data="about"),
               InlineKeyboardButton("Cᴏᴍᴍᴀɴᴅs", callback_data="commands")
               ]]
 
