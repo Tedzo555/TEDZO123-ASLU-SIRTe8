@@ -1,3 +1,4 @@
+import googletrans
 from googletrans import Translator
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
