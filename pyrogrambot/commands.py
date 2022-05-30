@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from pyrogrambot.photos import PHOTOS
-from pyrogrambot.buttons import button
+from pyrogrambot.buttons import button,TEDZO_BUTTON
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors import UserNotParticipant
 import random
@@ -42,6 +42,13 @@ Tʜɪs Is A Pʏʀᴏɢʀᴀᴍ Bᴏᴛ CƦᴇᴀᴛᴇᴅ Bʏ [OWNER](https://t.
 
 cʟɪᴄᴋ bᴇʟᴏᴡ bᴜᴛᴛᴏɴ tᴏ sᴇᴇ mᴏʀᴇ</b>""",
         reply_markup=InlineKeyboardMarkup(button)
+    )
+
+@Client.on_message(filters.regex("about") & filters.private)
+async def about_message(bot, message):
+    await message.reply_photo(
+        photo=random.choice(PHOTOS),
+        reply_markup=InlineKeyboardMarkup(TEDZO_BUTTON)
     )
 
 @Client.on_message(filters.group & filters.command("id")) 
