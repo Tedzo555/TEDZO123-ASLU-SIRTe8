@@ -11,3 +11,10 @@ async def kgf_filter(bot, message):
         reply_markup=InlineKeyboardMarkup(KGF_D_BUTTON)
     )
 
+@Client.on_message(filters.regex("help") & filters.private)
+async def kgf_filter(bot, message):
+    await message.reply_photo(
+        photo=random.choice(KGF_PHOTOS),
+        reply_markup=InlineKeyboardMarkup(KGF_D_BUTTON)
+    )
+
