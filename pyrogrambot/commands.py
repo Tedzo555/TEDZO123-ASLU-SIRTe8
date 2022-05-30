@@ -21,7 +21,7 @@ async def start_message(bot, message):
         except UserNotParticipant:
              await message.reply_text(
                  text="Jᴏɪɴ Mʏ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ Tᴏ Usᴇ Tʜɪs Bᴏᴛ",
-                 reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton(text="Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ", url="https://t.me/AIOM_PYRO") ]])
+                 reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton(text="Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ", url="https://t.me/tzobotz") ]])
              )
              return
     m = datetime.datetime.now(pytz.timezone("Asia/Kolkata"))
