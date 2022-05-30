@@ -18,6 +18,16 @@ MENU_BUTTON = [[
               InlineKeyboardButton("Cᴏᴍᴍᴀɴᴅs", callback_data="commands")
               ]]
 
+TEDZO_BUTTON = [[
+              InlineKeyboardButton("ᴏᴡɴᴇʀ", url="http://t.me/tedzosir01),
+              InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="http://t.me/tzobotz")
+              ],[
+              InlineKeyboardButton("« Bᴀᴄᴋ", callback_data="vback"),
+              InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="next"),
+              InlineKeyboardButton("help", callback_data="id")
+              ]]
+
+
 MOVIE_BUTTON = [[
                InlineKeyboardButton("« Bᴀᴄᴋ", callback_data="next")
                ]]
