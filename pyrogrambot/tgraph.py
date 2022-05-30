@@ -1,6 +1,5 @@
-
-
-
+from pyrogram import Client, filters
+from telegraph import upload_file
 
 
 @Webot.on_message(filters.photo)
