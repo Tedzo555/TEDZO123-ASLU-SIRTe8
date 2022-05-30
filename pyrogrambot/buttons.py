@@ -17,8 +17,8 @@ MENU_BUTTON = [[
               InlineKeyboardButton("« Bᴀᴄᴋ", callback_data="vback"),
               InlineKeyboardButton("Cᴏᴍᴍᴀɴᴅs", callback_data="commands")
               ],[
-              InlineKeyboardButton("❣️ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/BETA_BOTSUPPORT"),
-              InlineKeyboardButton("📢 𝐔𝐏𝐃𝐀𝐓𝐄𝐒", url="https://t.me/BETA_UPDATES")
+              InlineKeyboardButton("vbacjju", url="https://t.me/BETA_BOTSUPPORT"),
+              InlineKeyboardButton("help", url="https://t.me/BETA_UPDATES")
               ]]
 
 MOVIE_BUTTON = [[
