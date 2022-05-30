@@ -1,7 +1,7 @@
 from pyrogram.types import CallbackQuery
 from pyrogram.types import InlineKeyboardMarkup
 from pyrogram import Client
-from pyrogrambot.buttons import MENU_BUTTON, MOVIE_BUTTON, COMMM_BUTTON, KGF_BUTTON, S_BACK_BUTTO, SMENU_BUTTO, PMENU_BUTTN, button, VDENU_BUTTO
+from pyrogrambot.buttons import MENU_BUTTON, MOVIE_BUTTON, COMMM_BUTTON, KGF_BUTTON, S_BACK_BUTTO, SMENU_BUTTO, PMENU_BUTTN, button, VDENU_BUTTO, TEDZO_BUTTON
 import asyncio
 import pytz, datetime
 from pyrogrambot.photos import PHOTOS
@@ -43,6 +43,14 @@ async def callback(bot, msg: CallbackQuery):
             video="https://telegra.ph/file/6734341d85690fd50f6b9.mp4",
             caption="Hᴇʀᴇ Is Yᴏᴜ'ʀᴇ Mᴇɴᴜ",
             reply_markup=InlineKeyboardMarkup(VDENU_BUTTO)
+        )
+    elif msg.data == "about":
+        await msg.answer("abuot bot")
+        await msg.message.delete()
+        await msg.message.reply_photo(
+            photo=random.choice(PHOTOS),
+            caption="Hᴇʀᴇ Is Yᴏᴜ'ʀᴇ Mᴇɴᴜ",
+            reply_markup=InlineKeyboardMarkup(TEDZO_BUTTON)
         )
 
     elif msg.data == "photo":
