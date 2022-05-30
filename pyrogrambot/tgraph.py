@@ -1,9 +1,8 @@
 from pyrogram import Client, filters
 from telegraph import upload_file
 
-
-  @Client.on_message(filters.command(["telegraph"]))
-    async def telegraphphoto(client, message):
+@Client.on_message(filters.command(["telegraph"]))
+async def telegraphphoto(client, message):
     msg = await message.reply_text("Uploading To Telegraph...")
     download_location = await client.download_media(
         message=message, file_name='root/jetg')
