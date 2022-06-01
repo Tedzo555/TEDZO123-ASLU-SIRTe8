@@ -34,8 +34,8 @@ async def start_message(bot, message):
         get="Gᴏᴏᴅ Eᴠᴇɴɪɴɢ"
     else:
         get="Gᴏᴏᴅ Nɪɢʜᴛ"
-    await message.reply_photo(
-        photo=random.choice(PHOTOS),
+    await msg.message.reply_sticker(
+            sticker="CAACAgIAAxkBAAECR5FiWgOUsaX2iRWuUtv8Y7AvIPoNuQAC-hAAAqHHKEg5ZXbrk1gHox4E",
         caption=f"""<b>{get} 👋, {message.from_user.mention}
 
 Tʜɪs Is A Pʏʀᴏɢʀᴀᴍ Bᴏᴛ CƦᴇᴀᴛᴇᴅ Bʏ [OWNER](https://t.me/tedzo01)
