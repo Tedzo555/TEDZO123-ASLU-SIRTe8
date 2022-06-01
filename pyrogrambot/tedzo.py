@@ -1,5 +1,5 @@
 # By @TroJanzHEX
-from image.edit_1 import (  # pylint:disable=import-error
+from pyrogrambot.edit_1 import (  # pylint:disable=import-error
     bright,
     mix,
     black_white,
