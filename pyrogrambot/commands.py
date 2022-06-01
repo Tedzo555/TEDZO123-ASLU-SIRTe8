@@ -44,14 +44,14 @@ cʟɪᴄᴋ bᴇʟᴏᴡ bᴜᴛᴛᴏɴ tᴏ sᴇᴇ mᴏʀᴇ</b>""",
         reply_markup=InlineKeyboardMarkup(button)
     )
 
-@Client.on_message(filters.regex("about") & filters.private)
+@Client.on_message(filters.command("about"))
 async def about_message(bot, message):
     await message.reply_photo(
         photo=random.choice(PHOTOS),
         reply_markup=InlineKeyboardMarkup(TEDZO_BUTTON)
     )
 
-@Client.on_message(filters.group & filters.command("id")) 
+@Client.on_message(filters.command("id")) 
 async def id_message(bot, msg):
     text = f"""Tɪᴛʟᴇ : {msg.chat.title}
 Usᴇʀɴᴀᴍᴇ : @{msg.chat.username}
