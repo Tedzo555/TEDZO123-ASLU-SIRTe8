@@ -44,12 +44,15 @@ KGF_D_BUTTON = [[
                ]]
 
 KGF_BUTTON = [[
-             InlineKeyboardButton("200MB", url="https://t.me/tedzoalert01/1659"),
-             InlineKeyboardButton("400MB", url="https://t.me/tedzoalert01/1659"),
-             InlineKeyboardButton("700MB", url="https://t.me/tedzoalert01/1659")
+             InlineKeyboardButton("200MB", url="https://t.me/tedzomovie01"),
+             InlineKeyboardButton("200MB", url="https://t.me/tedzomovie01"),
+             InlineKeyboardButton("200MB", url="https://t.me/tedzomovie01")
              ],[
-             InlineKeyboardButton("1.2GB", url="https://t.me/tedzoalert01/1659"),
-             InlineKeyboardButton("1.7GB", url="https://t.me/tedzoalert01/1659"),
+             InlineKeyboardButton("MOVIE BOT", url="https://t.me/tedzo_v3_bot")
+             ],[
+             InlineKeyboardButton("1.2GB", url="https://t.me/tedzomovie01"),
+             InlineKeyboardButton("1.7GB", url="https://t.me/tedzomovie01")
+             ],[
              InlineKeyboardButton("Cʟᴏꜱᴇ", callback_data="close")
              ]]
 
