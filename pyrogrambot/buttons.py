@@ -5,26 +5,27 @@ button = [[
          ]]
 
 MENU_BUTTON = [[
-              InlineKeyboardButton("Sᴛɪᴄᴋᴇʀ", callback_data="sticker"),
-              InlineKeyboardButton("Vɪᴅᴇᴏ", callback_data="video")
+              InlineKeyboardButton("🌠Sᴛɪᴄᴋᴇʀ", callback_data="sticker"),
+              InlineKeyboardButton("🎞️Vɪᴅᴇᴏ", callback_data="video")
               ],[
-              InlineKeyboardButton("Pʜᴏᴛᴏ", callback_data="photo"),
-              InlineKeyboardButton("Dᴇᴛᴀɪʟs", callback_data="id")
+              InlineKeyboardButton("🖼️Pʜᴏᴛᴏ", callback_data="photo"),
+              InlineKeyboardButton("🔍Dᴇᴛᴀɪʟs", callback_data="id")
               ],[
-              InlineKeyboardButton("Mᴏᴠɪᴇs", callback_data="movies"),
-              InlineKeyboardButton("Cʟᴏsᴇ", callback_data="close")
+              InlineKeyboardButton("🎬Mᴏᴠɪᴇs", callback_data="movies"),
+              InlineKeyboardButton("🔙Cʟᴏsᴇ", callback_data="close")
               ],[
-              InlineKeyboardButton(" ᴀʙᴏᴜᴛ", callback_data="about"),
-              InlineKeyboardButton("Cᴏᴍᴍᴀɴᴅs", callback_data="commands")
+              InlineKeyboardButton("🖥️ᴀʙᴏᴜᴛ", callback_data="about"),
+              InlineKeyboardButton("📱Cᴏᴍᴍᴀɴᴅs", callback_data="commands")
               ]]
 
 TEDZO_BUTTON = [[
               InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/tedzosir01"),
               InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/tzobotz"),
               ],[
-              InlineKeyboardButton("« Bᴀᴄᴋ", callback_data="vback"),
-              InlineKeyboardButton("menu", callback_data="next"),
-              InlineKeyboardButton("ɪᴅ", callback_data="id")
+              InlineKeyboardButton("« Bᴀᴄᴋ", callback_data="vback")
+              ],[
+              InlineKeyboardButton("📄menu", callback_data="next"),
+              InlineKeyboardButton("📝ɪᴅ", callback_data="id")
               ]]
 
 
