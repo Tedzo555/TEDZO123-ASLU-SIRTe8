@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup
-from pyrogrambot.photos import KGF_PHOTOS
+from pyrogrambot.photos import KGF_PHOTOS,PHOTOS
 from pyrogrambot.buttons import KGF_D_BUTTON,TEDZO_BUTTON
 import random
 
@@ -14,7 +14,7 @@ async def kgf_filter(bot, message):
 @Client.on_message(filters.regex("help") & filters.private)
 async def kgf_filter(bot, message):
     await message.reply_photo(
-        photo=random.choice(KGF_PHOTOS),
+        photo=random.choice(PHOTOS),
         reply_markup=InlineKeyboardMarkup(TEDZO_BUTTON)
     )
 
