@@ -105,10 +105,19 @@ async def callback(bot, msg: CallbackQuery):
         await msg.message.delete()
 
     elif msg.data == "commands":
-        await msg.message.delete()
-        await msg.message.reply_sticker(
-            sticker="CAACAgIAAxkBAAECR5liWidHhuUuJNcoJ_5QjliWb4I4kgAC1BEAA8CgSXknAeKPK_QMHgQ",
-        await msg.message.edit(
+        await msg.message.edit("○○○○○")
+        await asyncio.sleep(0.2)
+        await msg.message.edit("𒊹︎︎︎○○○○")
+        await asyncio.sleep(0.2)
+        await msg.message.edit("𒊹︎︎︎𒊹︎︎○○○")
+        await asyncio.sleep(0.2)
+        await msg.message.edit("𒊹︎︎︎𒊹︎︎︎𒊹︎︎︎○○")
+        await asyncio.sleep(0.2)
+        await msg.message.edit("𒊹︎︎︎𒊹︎︎︎𒊹︎︎︎𒊹︎︎︎○")
+        await asyncio.sleep(0.2)
+        await msg.message.edit("𒊹︎︎︎𒊹︎︎︎𒊹︎︎︎𒊹︎︎︎𒊹︎︎︎")
+        await msg.message.("")
+            await msg.message.edit(
             text="""╭────────────────⍟
 │
 │ THIS BOT IS MY TESTING BOT
@@ -118,6 +127,10 @@ async def callback(bot, msg: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(COMMM_BUTTON)
         )
     elif msg.data == "downlod":
+    await msg.answer("Mode Chenged To Photo")
+        await msg.message.delete()
+        await msg.message.reply_photo(
+            photo=random.choice(PHOTOS),
         await msg.message.edit(
             text="""<b>• Nᴀᴍᴇ : KGF
 • Yᴇᴀʀ : 2022
