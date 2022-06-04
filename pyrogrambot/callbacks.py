@@ -109,14 +109,14 @@ async def callback(bot, msg: CallbackQuery):
         await asyncio.sleep(0.2)
         await msg.message.edit("𒊹︎︎︎𖦹𖦹𖦹𖦹")
         await asyncio.sleep(0.2)
-        await msg.message.edit("𒊹︎︎︎𒊹︎︎𖦹𖦹𖦹")
+        await msg.message.edit("𖦹𒊹︎︎𖦹𖦹𖦹")
         await asyncio.sleep(0.2)
-        await msg.message.edit("𒊹︎︎︎𒊹︎︎︎𒊹︎︎︎𖦹𖦹")
+        await msg.message.edit("𖦹𖦹𒊹︎︎︎𖦹𖦹")
         await asyncio.sleep(0.2)
-        await msg.message.edit("𒊹︎︎︎𒊹︎︎︎𒊹︎︎︎𒊹︎︎︎𖦹")
+        await msg.message.edit("𖦹𖦹𖦹𒊹︎︎︎𖦹")
         await asyncio.sleep(0.2)
-        await msg.message.edit("𒊹︎︎︎𒊹︎︎︎𒊹︎︎︎𒊹︎︎︎𒊹︎︎︎")
-        await msg.message.("")
+        await msg.message.edit("𖦹𖦹𖦹𖦹𒊹︎︎︎")
+        await msg.message.("𖦹𖦹𖦹𖦹𖦹")
             await msg.message.edit(
             text="""╭────────────────⍟
 │
