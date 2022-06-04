@@ -21,6 +21,6 @@ async def kgfto_filter(bot, message):
 async def kgf_filter(bot, message):
     await message.reply_photo(
         photo=random.choice(PHOTOS),
-        reply_markup=InlineKeyboardMarkup(TEDZO_BUTTON)
+        reply_markup=InlineKeyboardMarkup(HELP_B)
     )
 
