@@ -104,11 +104,14 @@ S_BACK_BUTTO = [[
 
 HELP_B =    [[
             InlineKeyboardButton('𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙿𝙷', callback_data='telegraph'),
-            InlineKeyboardButton('𝙲𝙾𝚅𝙸𝙳 19', callback_data='covid'),
+            InlineKeyboardButton('𝙲𝙾𝚅𝙸𝙳 19', callback_data='covid')
+            ],[
             InlineKeyboardButton("𝙶 ⌨︎ 𝚃𝚛𝚊𝚗𝚜", callback_data='tr')
             ],[
-            InlineKeyboardButton('𝚂𝚃𝙸𝙲𝙺𝙴𝚁 𝙸𝙳', callback_data='stickerid'), 
-            InlineKeyboardButton('𝙰𝙱𝙾𝚄𝚃', callback_data='about')
+            InlineKeyboardButton('⚚ ID ⚚', callback_data='rid')
             ],[
-            InlineKeyboardButton('⚚ 𝙱𝙰𝙲𝙺 ⚚', callback_data='start')
+            InlineKeyboardButton('𝚂𝚃𝙸𝙲𝙺𝙴𝚁 𝙸𝙳', callback_data='stickerid')
+            InlineKeyboardButton('𝙰𝙱𝙾𝚄𝚃','/about')
+            ],[
+            InlineKeyboardButton('⚚ 𝙱 𝙰 𝙲 𝙺 ⚚', callback_data='start')
             ]]
