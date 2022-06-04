@@ -126,6 +126,28 @@ async def callback(bot, msg: CallbackQuery):
 ╰────────────────⍟""",
             reply_markup=InlineKeyboardMarkup(COMMM_BUTTON)
         )
+    elif msg.data == "Telegraph":
+        await msg.message.edit("𖦹𖦹𖦹𖦹𖦹")
+        await asyncio.sleep(0.1)
+        await msg.message.edit("𒊹︎︎︎𖦹𖦹𖦹𖦹")
+        await asyncio.sleep(0.1)
+        await msg.message.edit("𖦹𒊹︎︎𖦹𖦹𖦹")
+        await asyncio.sleep(0.1)
+        await msg.message.edit("𖦹𖦹𒊹︎︎︎𖦹𖦹")
+        await asyncio.sleep(0.1)
+        await msg.message.edit("𖦹𖦹𖦹𒊹︎︎︎𖦹")
+        await asyncio.sleep(0.1)
+        await msg.message.edit("𖦹𖦹𖦹𖦹𒊹︎︎︎")
+        await msg.message.("𖦹𖦹𖦹𖦹𖦹")
+            await msg.message.edit(
+            text="""╭────────────────⍟
+│
+│ THIS BOT IS MY TESTING BOT
+│ 
+│
+╰────────────────⍟""",
+            reply_markup=InlineKeyboardMarkup(COMMM_BUTTON)
+        )
     elif msg.data == "downlod":
     await msg.answer("Mode Chenged To Photo")
         await msg.message.delete()
