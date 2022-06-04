@@ -15,7 +15,7 @@ MENU_BUTTON = [[
               InlineKeyboardButton("🔙Cʟᴏsᴇ", callback_data="close")
               ],[
               InlineKeyboardButton("🖥️ᴀʙᴏᴜᴛ", callback_data="about"),
-              InlineKeyboardButton("📱Cᴏᴍᴍᴀɴᴅs", callback_data="commands")
+              InlineKeyboardButton("📱Cᴏᴍᴍᴀɴᴅs", callback_data="help")
               ]]
 
 TEDZO_BUTTON = [[
