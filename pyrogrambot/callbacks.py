@@ -1,7 +1,7 @@
 from pyrogram.types import CallbackQuery
 from pyrogram.types import InlineKeyboardMarkup
 from pyrogram import Client
-from pyrogrambot.buttons import MENU_BUTTON, MOVIE_BUTTON, COMMM_BUTTON, KGF_BUTTON, S_BACK_BUTTO, SMENU_BUTTO, PMENU_BUTTN, button, VDENU_BUTTO, TEDZO_BUTTON
+from pyrogrambot.buttons import MENU_BUTTON, MOVIE_BUTTON, COMMM_BUTTON, KGF_BUTTON, S_BACK_BUTTO, SMENU_BUTTO, PMENU_BUTTN, button, VDENU_BUTTO, TEDZO_BUTTON, HELP_B
 import asyncio
 import pytz, datetime
 from pyrogrambot.photos import PHOTOS
@@ -35,7 +35,23 @@ async def callback(bot, msg: CallbackQuery):
             sticker="CAACAgIAAxkBAAECR5FiWgOUsaX2iRWuUtv8Y7AvIPoNuQAC-hAAAqHHKEg5ZXbrk1gHox4E",
             reply_markup=InlineKeyboardMarkup(SMENU_BUTTO)
         )
-
+    elif msg.data == "help":
+        await msg.message.edit("○○○○○")
+        await asyncio.sleep(0.2)
+        await msg.message.edit("●○○○○")
+        await asyncio.sleep(0.2)
+        await msg.message.edit("●●○○○")
+        await asyncio.sleep(0.2)
+        await msg.message.edit("●●●○○")
+        await asyncio.sleep(0.2)
+        await msg.message.edit("●●●●○")
+        await asyncio.sleep(0.2)
+        await msg.message.edit("●●●●●")
+        await asyncio.sleep(0.2)
+        await msg.message.edit(
+            text="Tᴏ Dᴏᴡɴʟᴏᴀᴅ Kɢғ 𝟸 Sᴇɴᴅ Tʜɪs Tᴇxᴛ `kgf 2`",
+            reply_markup=InlineKeyboardMarkup(HELP_B)
+        )
     elif msg.data == "video":
         await msg.answer("Mode Chenged To Video")
         await msg.message.delete()
