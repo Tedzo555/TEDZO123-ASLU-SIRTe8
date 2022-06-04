@@ -78,7 +78,7 @@ async def callback(bot, msg: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(MENU_BUTTON)
         )
 
-    elif msg.data == "id":
+    elif msg.data == "my":
         await msg.answer("your id ")
         await msg.message.delete(0.9)
         await msg.answer(f"Fɪʀsᴛ Nᴀᴍᴇ : {msg.from_user.first_name}\nLᴀsᴛ Nᴀᴍᴇ : {msg.from_user.last_name}\nUsᴇʀɴᴀᴍᴇ : {msg.from_user.username}\nUsᴇʀ ɪᴅ : {msg.from_user.id}", show_alert=True)
