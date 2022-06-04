@@ -80,10 +80,8 @@ async def callback(bot, msg: CallbackQuery):
 
     elif msg.data == "id":
         await msg.answer("your id ")
-        await msg.message.delete()
-        await msg.message.reply_photo(
-            photo=random.choice(PHOTOS),
-        caption="f"Fɪʀsᴛ Nᴀᴍᴇ : {msg.from_user.first_name}\nLᴀsᴛ Nᴀᴍᴇ : {msg.from_user.last_name}\nUsᴇʀɴᴀᴍᴇ : {msg.from_user.username}\nUsᴇʀ ɪᴅ : {msg.from_user.id}""
+        await msg.message.delete(0.9)
+        await msg.answer(f"Fɪʀsᴛ Nᴀᴍᴇ : {msg.from_user.first_name}\nLᴀsᴛ Nᴀᴍᴇ : {msg.from_user.last_name}\nUsᴇʀɴᴀᴍᴇ : {msg.from_user.username}\nUsᴇʀ ɪᴅ : {msg.from_user.id}", show_alert=True)
 
     elif msg.data == "movies":
         await msg.message.edit("○○○○○")
@@ -107,24 +105,14 @@ async def callback(bot, msg: CallbackQuery):
         await msg.message.delete()
 
     elif msg.data == "commands":
-        await msg.message.edit("○○○○○")
-        await asyncio.sleep(0.2)
-        await msg.message.edit("●○○○○")
-        await asyncio.sleep(0.2)
-        await msg.message.edit("●●○○○")
-        await asyncio.sleep(0.2)
-        await msg.message.edit("●●●○○")
-        await asyncio.sleep(0.2)
-        await msg.message.edit("●●●●○")
-        await asyncio.sleep(0.2)
-        await msg.message.edit("●●●●●")
-        await asyncio.sleep(0.2)
+        await msg.message.delete()
+        await msg.message.reply_sticker(
+            sticker="CAACAgIAAxkBAAECR5liWidHhuUuJNcoJ_5QjliWb4I4kgAC1BEAA8CgSXknAeKPK_QMHgQ",
         await msg.message.edit(
             text="""╭────────────────⍟
 │
-│ /start - Tᴏ Sᴛᴀʀᴛ Tʜɪs Bᴏᴛ
-│
-│ /id - Tᴏ Gᴇᴛ Iᴅ ( ᵒⁿˡʸ ʷᵒʳᵏˢ ⁱⁿ ᵍʳᵒᵘᵖ )
+│ THIS BOT IS MY TESTING BOT
+│ 
 │
 ╰────────────────⍟""",
             reply_markup=InlineKeyboardMarkup(COMMM_BUTTON)
