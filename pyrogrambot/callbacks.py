@@ -36,20 +36,9 @@ async def callback(bot, msg: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(SMENU_BUTTO)
         )
     elif msg.data == "help":
-        await msg.message.edit("○○○○○")
-        await asyncio.sleep(0.2)
-        await msg.message.edit("●○○○○")
-        await asyncio.sleep(0.2)
-        await msg.message.edit("●●○○○")
-        await asyncio.sleep(0.2)
-        await msg.message.edit("●●●○○")
-        await asyncio.sleep(0.2)
-        await msg.message.edit("●●●●○")
-        await asyncio.sleep(0.2)
-        await msg.message.edit("●●●●●")
-        await asyncio.sleep(0.2)
+        await msg.message.edit("𖦹𖦹𖦹𖦹𖦹") await asyncio.sleep(0.1) await msg.message.edit("𒊹︎︎︎𖦹𖦹𖦹𖦹") await asyncio.sleep(0.1) await msg.message.edit("𖦹𒊹︎︎𖦹𖦹𖦹") await asyncio.sleep(0.1) await msg.message.edit("𖦹𖦹𒊹︎︎︎𖦹𖦹") await asyncio.sleep(0.1) await msg.message.edit("𖦹𖦹𖦹𒊹︎︎︎𖦹") await asyncio.sleep(0.1) await msg.message.edit("𖦹𖦹𖦹𖦹𒊹︎︎︎") await asyncio.sleep(0.2) await msg.message.edit("𖦹𖦹𖦹𖦹𖦹")
         await msg.message.edit(
-            text="Tᴏ Dᴏᴡɴʟᴏᴀᴅ Kɢғ 𝟸 Sᴇɴᴅ Tʜɪs Tᴇxᴛ `kgf 2`",
+            text="TEDZO BOT `BY AZLU`",
             reply_markup=InlineKeyboardMarkup(HELP_B)
         )
     elif msg.data == "video":
@@ -78,9 +67,7 @@ async def callback(bot, msg: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(MENU_BUTTON)
         )
 
-    elif msg.data == "my":
-        await msg.answer("your id ")
-        await msg.message.delete(0.9)
+    elif msg.data == "id":
         await msg.answer(f"Fɪʀsᴛ Nᴀᴍᴇ : {msg.from_user.first_name}\nLᴀsᴛ Nᴀᴍᴇ : {msg.from_user.last_name}\nUsᴇʀɴᴀᴍᴇ : {msg.from_user.username}\nUsᴇʀ ɪᴅ : {msg.from_user.id}", show_alert=True)
 
     elif msg.data == "movies":
@@ -105,57 +92,29 @@ async def callback(bot, msg: CallbackQuery):
         await msg.message.delete()
 
     elif msg.data == "commands":
-        await msg.message.edit("𖦹𖦹𖦹𖦹𖦹")
+        await msg.message.edit("○○○○○")
         await asyncio.sleep(0.2)
-        await msg.message.edit("𒊹︎︎︎𖦹𖦹𖦹𖦹")
+        await msg.message.edit("●○○○○")
         await asyncio.sleep(0.2)
-        await msg.message.edit("𖦹𒊹︎︎𖦹𖦹𖦹")
+        await msg.message.edit("●●○○○")
         await asyncio.sleep(0.2)
-        await msg.message.edit("𖦹𖦹𒊹︎︎︎𖦹𖦹")
+        await msg.message.edit("●●●○○")
         await asyncio.sleep(0.2)
-        await msg.message.edit("𖦹𖦹𖦹𒊹︎︎︎𖦹")
+        await msg.message.edit("●●●●○")
         await asyncio.sleep(0.2)
-        await msg.message.edit("𖦹𖦹𖦹𖦹𒊹︎︎︎")
-        await asyncio.sleep(0.1)
-        await msg.message.edit("𖦹𖦹𖦹𖦹𖦹") 
-        await asyncio.sleep(0.1)
-            await msg.message.edit(
+        await msg.message.edit("●●●●●")
+        await asyncio.sleep(0.2)
+        await msg.message.edit(
             text="""╭────────────────⍟
 │
-│ THIS BOT IS MY TESTING BOT
-│ 
+│ /start - Tᴏ Sᴛᴀʀᴛ Tʜɪs Bᴏᴛ
 │
-╰────────────────⍟""",
-            reply_markup=InlineKeyboardMarkup(COMMM_BUTTON)
-        )
-    elif msg.data == "Telegraph":
-        await msg.message.edit("𖦹𖦹𖦹𖦹𖦹")
-        await asyncio.sleep(0.1)
-        await msg.message.edit("𒊹︎︎︎𖦹𖦹𖦹𖦹")
-        await asyncio.sleep(0.1)
-        await msg.message.edit("𖦹𒊹︎︎𖦹𖦹𖦹")
-        await asyncio.sleep(0.1)
-        await msg.message.edit("𖦹𖦹𒊹︎︎︎𖦹𖦹")
-        await asyncio.sleep(0.1)
-        await msg.message.edit("𖦹𖦹𖦹𒊹︎︎︎𖦹")
-        await asyncio.sleep(0.1)
-        await msg.message.edit("𖦹𖦹𖦹𖦹𒊹︎︎︎")
-        await asyncio.sleep(0.2)
-        await msg.message.edit("𖦹𖦹𖦹𖦹𖦹")
-            await msg.message.edit(
-            text="""╭────────────────⍟
-│
-│ THIS BOT IS MY TESTING BOT
-│ 
+│ /id - Tᴏ Gᴇᴛ Iᴅ ( ᵒⁿˡʸ ʷᵒʳᵏˢ ⁱⁿ ᵍʳᵒᵘᵖ )
 │
 ╰────────────────⍟""",
             reply_markup=InlineKeyboardMarkup(COMMM_BUTTON)
         )
     elif msg.data == "downlod":
-    await msg.answer("Mode Chenged To Photo")
-        await msg.message.delete()
-        await msg.message.reply_photo(
-            photo=random.choice(PHOTOS),
         await msg.message.edit(
             text="""<b>• Nᴀᴍᴇ : KGF
 • Yᴇᴀʀ : 2022
@@ -242,4 +201,3 @@ Cʟɪᴄᴋ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴ Tᴏ Sᴇᴇ Mᴏʀᴇ</b>""",
 
 
         
-
