@@ -71,19 +71,20 @@ async def callback(bot, msg: CallbackQuery):
         await msg.answer(f"Fɪʀsᴛ Nᴀᴍᴇ : {msg.from_user.first_name}\nLᴀsᴛ Nᴀᴍᴇ : {msg.from_user.last_name}\nUsᴇʀɴᴀᴍᴇ : {msg.from_user.username}\nUsᴇʀ ɪᴅ : {msg.from_user.id}", show_alert=True)
 
     elif msg.data == "movies":
-        await msg.message.edit("○○○○○")
+        await msg.message.edit("𖦹𖦹𖦹𖦹𖦹")
         await asyncio.sleep(0.2)
-        await msg.message.edit("●○○○○")
+        await msg.message.edit("𒊹︎︎︎𖦹𖦹𖦹𖦹")
         await asyncio.sleep(0.2)
-        await msg.message.edit("●●○○○")
+        await msg.message.edit("𖦹𒊹︎︎𖦹𖦹𖦹")
         await asyncio.sleep(0.2)
-        await msg.message.edit("●●●○○")
+        await msg.message.edit("𖦹𖦹𒊹︎︎︎𖦹𖦹")
         await asyncio.sleep(0.2)
-        await msg.message.edit("●●●●○")
+        await msg.message.edit("𖦹𖦹𖦹𒊹︎︎︎𖦹")
         await asyncio.sleep(0.2)
-        await msg.message.edit("●●●●●")
+        await msg.message.edit("𖦹𖦹𖦹𖦹𒊹︎︎︎")
         await asyncio.sleep(0.2)
-        await msg.message.edit(
+        await msg.message.edit("𖦹𖦹𖦹𖦹𖦹")
+            await msg.message.edit(
             text="Tᴏ Dᴏᴡɴʟᴏᴀᴅ Kɢғ 𝟸 Sᴇɴᴅ Tʜɪs Tᴇxᴛ `kgf 2`",
             reply_markup=InlineKeyboardMarkup(MOVIE_BUTTON)
         )
