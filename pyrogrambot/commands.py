@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from pyrogrambot.photos import PHOTOS
-from pyrogrambot.buttons import button,TEDZO_BUTTON
+from pyrogrambot.buttons import button,TEDZO_BUTTON,HELP_B
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors import UserNotParticipant
 import random
@@ -56,7 +56,7 @@ async def id_message(bot, msg):
     await message.reply_photo(
          photo=random.choice(PHOTOS),
          caption=f"""<b>{message.from_user.mention}
-Usᴇʀɴᴀᴍᴇ : @{msg.chat.username}
+Usᴇʀɴᴀᴍᴇ : {msg.chat.username}
 Cʜᴀᴛ ɪᴅ : `{msg.chat.id}`
 Usᴇʀ ɪᴅ : `{msg.from_user.id}`"""
        reply_markup=InlineKeyboardMarkup(HELP_B)    
