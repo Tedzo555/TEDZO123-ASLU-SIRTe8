@@ -53,8 +53,12 @@ async def about_message(bot, message):
 
 @Client.on_message(filters.regex("id") & filters.private)
 async def id_message(bot, msg):
-    text = f"""Tɪᴛʟᴇ : {msg.chat.title}
+    await message.reply_photo(
+        photo=random.choice(PHOTOS),
+        caption=f"""<b>{get}, {message.from_user.mention}f"""Tɪᴛʟᴇ : {msg.chat.title}
 Usᴇʀɴᴀᴍᴇ : @{msg.chat.username}
 Cʜᴀᴛ ɪᴅ : `{msg.chat.id}`
 Usᴇʀ ɪᴅ : `{msg.from_user.id}`"""
-    await msg.reply_text(text=text)
+       reply_markup=InlineKeyboardMarkup(HELP_B)    
+    
+     )
