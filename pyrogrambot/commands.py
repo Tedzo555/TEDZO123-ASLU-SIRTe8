@@ -58,7 +58,6 @@ async def id_message(bot, msg):
          caption=f"""<b>{message.from_user.mention}
 Usᴇʀɴᴀᴍᴇ : {msg.chat.username}
 Cʜᴀᴛ ɪᴅ : `{msg.chat.id}`
-Usᴇʀ ɪᴅ : `{msg.from_user.id}`"""
-       reply_markup=InlineKeyboardMarkup(HELP_B)    
-    
+Usᴇʀ ɪᴅ : `{msg.from_user.id}`""",
+       reply_markup=InlineKeyboardMarkup(HELP_B)
      )
