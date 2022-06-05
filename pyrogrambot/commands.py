@@ -51,7 +51,7 @@ async def about_message(bot, message):
         reply_markup=InlineKeyboardMarkup(TEDZO_BUTTON)
     )
 
-@Client.on_message(filters.command("id")) 
+@Client.on_message(filters.regex("id") & filters.private)
 async def id_message(bot, msg):
     text = f"""Tɪᴛʟᴇ : {msg.chat.title}
 Usᴇʀɴᴀᴍᴇ : @{msg.chat.username}
