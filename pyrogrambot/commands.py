@@ -55,7 +55,7 @@ async def about_message(bot, message):
 async def id_message(bot, msg):
     await message.reply_photo(
         photo=random.choice(PHOTOS),
-        caption=f"""<b>{get}, {message.from_user.mention}f"""Tɪᴛʟᴇ : {msg.chat.title}
+        caption=f"""Tɪᴛʟᴇ : {msg.chat.title}
 Usᴇʀɴᴀᴍᴇ : @{msg.chat.username}
 Cʜᴀᴛ ɪᴅ : `{msg.chat.id}`
 Usᴇʀ ɪᴅ : `{msg.from_user.id}`"""
