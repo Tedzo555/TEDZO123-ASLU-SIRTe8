@@ -113,5 +113,5 @@ HELP_B =    [[
             InlineKeyboardButton('𝚂𝚃𝙸𝙲𝙺𝙴𝚁 𝙸𝙳', callback_data='stickerid'),
             InlineKeyboardButton('𝙰𝙱𝙾𝚄𝚃', callback_data='about')
             ],[
-            InlineKeyboardButton('⚚ 𝙱 𝙰 𝙲 𝙺 ⚚', callback_data='start')
+            InlineKeyboardButton('⚚ 𝙱 𝙰 𝙲 𝙺 ⚚', callback_data='photo')
             ]]
