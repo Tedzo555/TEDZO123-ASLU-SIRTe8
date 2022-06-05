@@ -36,8 +36,21 @@ async def callback(bot, msg: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(SMENU_BUTTO)
         )
     elif msg.data == "help":
-        await msg.message.edit("𖦹𖦹𖦹𖦹𖦹") await asyncio.sleep(0.1) await msg.message.edit("𒊹︎︎︎𖦹𖦹𖦹𖦹") await asyncio.sleep(0.1) await msg.message.edit("𖦹𒊹︎︎𖦹𖦹𖦹") await asyncio.sleep(0.1) await msg.message.edit("𖦹𖦹𒊹︎︎︎𖦹𖦹") await asyncio.sleep(0.1) await msg.message.edit("𖦹𖦹𖦹𒊹︎︎︎𖦹") await asyncio.sleep(0.1) await msg.message.edit("𖦹𖦹𖦹𖦹𒊹︎︎︎") await asyncio.sleep(0.2) await msg.message.edit("𖦹𖦹𖦹𖦹𖦹")
-        await msg.message.edit(
+        await msg.message.edit("______🏎️")
+        await asyncio.sleep(0.2)
+        await msg.message.edit("_____🏎️_")
+        await asyncio.sleep(0.2)
+        await msg.message.edit("____🏎️__")
+        await asyncio.sleep(0.2)
+        await msg.message.edit("___🏎️___")
+        await asyncio.sleep(0.2)
+        await msg.message.edit("__🏎️____")
+        await asyncio.sleep(0.2)
+        await msg.message.edit("_🏎️_____")
+        await asyncio.sleep(0.2)
+        await msg.message.edit("🏎️______")
+        await asyncio.sleep(0.2)
+        await msg.message.edit( 
             text="TEDZO BOT `BY AZLU`",
             reply_markup=InlineKeyboardMarkup(HELP_B)
         )
